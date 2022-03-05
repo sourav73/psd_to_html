@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+    <header>
+        <h1>There is no other<br>platforms for you as like</h1>
+        <button id="play"><i class="fas fa-2x fa-play-circle"></i></button>
+        <button id="try">Try Now</button>
+        <small>*No need to add card details*</small>
+    </header>
+    <!-- Modal(Video) for play button -->
+    <div class="modal-container" id="video-modal">
+        <div class="modal">
+            <div class="modal-content">
+                <video controls loop muted>
+                    <source src="./video/video.mp4" type="video/mp4">
+                    Your browser does not support html5 video
+                </video>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for try now button -->
+    <div class="modal-container" id="try-modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <form action="#" class="modal-form">
+                    <div>
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="full-name" id="full-name" class="form-input"
+                            placeholder="Enter Full Name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form-input" placeholder="Enter Email">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" class="form-input"
+                            placeholder="Enter Password">
+                    </div>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section class="intro">
+        <article>
+            <h5 class="title">New Design</h5>
+            <h5>There is no other platforms for you as like <span>....</span></h5>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi
+                porta
+                gravida at eget metus. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis
+                euismod. Vestibulum id ligula porta felis euismod semper.
+            </p>
+            <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus
+                auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra
+                augue.
+            </p>
+        </article>
+        <div><img src="./img/rectangle_half_right.png" alt=""></div>
+    </section>
+
+    <section class="feature">
+        <h5 class="title">New Features</h4>
+            <h5>Some awesome features</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-img"><img src="./img/picture.png" alt=""></div>
+                        <div class="card-content">
+                            <h5 class="title">Some awesome features</h5>
+                            <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit
+                                libero, a
+                                pharetra augue.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img"><img src="./img/airplane.png" alt=""></div>
+                        <div class="card-content">
+                            <h5 class="title">Some awesome features</h5>
+                            <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit
+                                libero, a
+                                pharetra augue.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img"><img src="./img/bulb.png" alt=""></div>
+                        <div class="card-content">
+                            <h5 class="title">Some awesome features</h5>
+                            <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit
+                                libero, a
+                                pharetra augue.</p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section class="responsive">
+        <div>
+            <img src="./img/macbook.png" alt="">
+        </div>
+        <div>
+            <h5 class="title">New Design</h5>
+            <h5>Resposive design, just need your tap <span>....</span></h5>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non
+                mi porta
+                gravida at eget metus. Curabitur blandit tempus porttitor. Etiasem malesuada magn. Vestibulum
+                felis
+                euismod semper.
+            </p>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="card-container">
+            <div class="card">
+                <div class="card-img"><img src="./img/user.png" alt=""></div>
+                <div class="card-content">
+                    <div class="user-info">
+                        <p class="name">Jonathon Doe</p>
+                        <p class="designation">Co Founder</p>
+                    </div>
+                    <p class="testimonial-text">“Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                        vestibulum. Donec id gravida at eget metus. Etiasem malesuada magn”</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img"><img src="./img/user.png" alt=""></div>
+                <div class="card-content">
+                    <div class="user-info">
+                        <p class="name">Jonathon Doe</p>
+                        <p class="designation">Co Founder</p>
+                    </div>
+                    <p class="testimonial-text">“Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                        vestibulum. Donec id gravida at eget metus. Etiasem malesuada magn”</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img"><img src="./img/user.png" alt=""></div>
+                <div class="card-content">
+                    <div class="user-info">
+                        <p class="name">Jonathon Doe</p>
+                        <p class="designation">Co Founder</p>
+                    </div>
+                    <p class="testimonial-text">“Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                        vestibulum. Donec id gravida at eget metus. Etiasem malesuada magn”</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="partners">
+            <img src="./img/partners.png" alt="">
+        </div>
+
+    </section>
+
+    <section class="feature-2">
+        <div class="feature-text">
+            <h5 class="title">New Features</h5>
+            <h5>Some awesome features</h5>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta
+                gravida at eget metus. Curabitur blandit tempus porttitor. Etiasem malesuada magn. Vestibulum felis
+                euismod semper.
+            </p>
+        </div>
+        <img src="./img/browser_window.png" alt="">
+    </section>
+
+    <section class="register">
+        <h5 class="title">New Features</h5>
+        <h5>Over 1000 designers are using ....</h5>
+        <form action="#" class="register-form">
+            <input type="text" name="full-name" id="full-name" class="form-input" placeholder="FULL NAME">
+            <input type="email" name="email" id="email" class="form-input" placeholder="YOUR EMAIL">
+            <input type="password" name="password" id="password" class="form-input" placeholder="PASSWORD">
+            <div>
+                <p>30 days free trial for all</p>
+                <button type="submit">TRY NOW</button>
+            </div>
+        </form>
+        <p>By Signing up you agree to our <a href="#">terms & Services</a>.</p>
+    </section>
+
+    <footer class="footer">
+        <div class="address">
+            <h6>Start <span>Ex</span></h6>
+            <ul>
+                <li><p>Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.</p></li>
+                <li><p>USA &  CAN: 1-888-123-4567</p></li>
+                <li><p>Address: 34 Brokel Rd. NY</p></li>
+            </ul>
+        </div>
+
+        <div class="support">
+            <h6>Support</h6>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Get Started</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="about">
+            <h6>About US</h6>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy policy</a></li>
+            </ul>
+        </div>
+
+        <div class="newsletter">
+            <h6>Get Newsletter</h6>
+            <form action="#">
+                <input type="email" name="email" placeholder="EMAIL">
+                <button type="submit"><i class="far fa-paper-plane"></i></button>
+            </form>
+            <div class="social-media">
+                <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,255 @@
+@media(max-width: 420px){
+    header h1 {
+        font-size: 30px;
+    }
+
+    .intro{
+        display: block;
+        background: url("./img/rectangle_half_right.png") no-repeat right bottom/cover;
+        text-align: center;
+    }
+    .intro div{
+        display: none;
+    }
+    .intro article{
+        width: 100%;
+    }
+    .intro h5{
+        font-size: 14px;
+    }
+    .intro h5:nth-child(2){
+        font-size: 22px;
+    }
+    .intro p{
+        color: rgba(40, 40, 40, 0.7);
+    }
+
+    .feature{
+        height: auto;
+    }
+
+    .feature h5{
+        font-size: 14px;
+    }
+
+    .feature h5:nth-child(2){
+        font-size: 22px;
+        margin-bottom: 2.5rem;
+    }
+    
+    .feature .card-container{
+        flex-direction: column;
+    }
+
+    .feature .card-container .card{
+        padding: 0 0 2rem 0;
+    }
+    
+    .card-container .card .title{
+        font-size: 14px;
+    }
+
+    .responsive{
+        display: block;
+        background-position: left bottom;
+        text-align: center;
+        
+    }
+    
+    .responsive div img{
+        width: 100%;
+    }
+
+    .responsive div:nth-child(2){
+        display: block;
+        width: 100%;
+    }
+
+    .responsive h5{
+        font-size: 14px;
+    }
+
+    .responsive h5:nth-child(2){
+        font-size: 22px;
+        color: #282828;
+    }
+    
+    .testimonial .card-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .testimonial .partners img{
+        width: 100%;
+    }
+    
+    .feature-2 .feature-text{
+        width: 55%;
+        margin: 3rem auto;
+    }
+
+    .feature-2 .feature-text h5{
+        font-size: 14px;
+    }
+
+    .feature-2 .feature-text h5:nth-child(2){
+        font-size: 22px;
+    }
+    
+    .feature-2 img{
+        width: 100%;
+        margin-bottom: -4px;
+    }
+
+    .register{
+        padding: 4rem;
+    }
+
+    .register h5{
+        font-size: 14px;
+    }
+    .register h5:nth-child(2){
+        font-size: 22px;
+    }
+
+    .register form{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .register form input{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .register form div{
+        width: 100%;
+    }
+
+    .register form div button{
+        margin: 2rem 0 1rem;
+    }
+
+    .footer{
+        display: block;
+        padding: 2rem;
+    }
+
+    .footer > div{
+        margin: 1rem auto;
+        text-align: center;
+    }
+
+    .footer > div:first-child{
+        width: unset;
+    }
+
+    .newsletter form{
+        justify-content: center;
+    }
+    
+}
+
+
+@media(min-width: 421px) and (max-width: 900px){
+    h5{
+        font-size: 30px;
+    }
+    .feature{
+        height: unset;
+    }
+    .feature h5{
+        margin-bottom: 0;
+    }
+
+    .feature h5.title{
+        font-size: 15px;
+    }
+    .feature .card-container{
+        margin-top: 1rem;
+    }
+    .feature .card-container h5.title{
+        font-size: 14px;
+    }
+
+    .responsive{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-position: left bottom;
+    }
+
+    .responsive div:last-child{
+        width: unset;
+        margin-top: 1.5rem;
+    }
+    .responsive h5:nth-child(2){
+        margin-bottom: 2rem;
+    }
+
+    .testimonial .partners img{
+        width: 100%;
+    }
+
+    .feature-2 .feature-text{
+        width: 70%;
+        margin: 4rem auto;
+    }
+    .feature-2 img{
+        width: 100%;
+    }
+
+    .register form{
+        flex-direction: column;
+        align-items: center;
+    }
+    .register form input{
+        width: 90%;
+        margin-bottom: 1.5rem;
+    }
+    .register form div{
+        width: 90%;
+        background-position: 160px 5px;
+        margin-top: 1rem;
+    }
+    .register form div button{
+        margin: 2rem 0 0 0;
+    }
+
+    .footer{
+        padding: 3rem 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer div.address{
+        width: 30%;
+    }
+    .footer div.newsletter{
+        margin-top: 2rem;
+        text-align: center;
+    }
+}
+
+/* @media(max-width: 900px){
+    .feature-2 .feature-text{
+        width: 80%;
+        margin: 4rem auto;
+    }
+} */
+
+@media(min-width: 901px)and(max-width: 1052px){
+    .feature{
+        height: auto;
+    }
+    .responsive{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-position: left bottom;
+    }
+
+    .responsive div:nth-child(2){
+        width: 80%;
+        margin-top: 2rem;
+    }
+}
