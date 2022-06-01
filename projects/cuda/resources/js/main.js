@@ -17,7 +17,7 @@ $(document).ready(function(){
 
     // Smooth scroll for Internet explorer
     $('a').click(function (e) { 
-        // e.preventDefault();
+        e.preventDefault();
         if(this.hash !== ''){
             e.preventDefault();
             var hash =  this.hash;
@@ -32,9 +32,9 @@ $(document).ready(function(){
 });
 
 function openNav(){
-    document.getElementById('mobile-nav').style.width = '100%';
+    $('#mobile-nav').style.width = '100%';
 }
 
 function closeNav(){
-    document.getElementById('mobile-nav').style.width = '0%';
+    $('#mobile-nav').style.width = '0%';
 }

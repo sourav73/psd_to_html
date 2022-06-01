@@ -179,10 +179,10 @@ header{
     background: rgba(100, 58, 121, 1);
 }
 
-.main-nav li.active a{
+/*.main-nav li.active a{
     background: rgba(100, 58, 121, 1);
     border-radius: .3rem;
-}
+}*/
 
 /* Stocky Navigation */
 .sticky{
